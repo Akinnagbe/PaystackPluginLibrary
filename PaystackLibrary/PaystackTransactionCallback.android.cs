@@ -1,5 +1,5 @@
 ﻿using Java.Lang;
-using NG.Sterling.Paystackbindinglibrary;
+using Com.Olamidejames.Paystackxamarinandroidlibrary;
 using System;
 using System.Collections.Generic;
 using System.Text;

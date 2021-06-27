@@ -19,12 +19,12 @@ namespace SampleApp
         {
             try
             {
-                var card = new Plugin.PaystackLibrary.DebitCardModel
+                var card = new Plugin.PaystackLibrary.PaystackModel
                 {
                     Amount = 31000,
                     Currency = "ngn",
                     Cvv = "408",
-                    Email = "olamide.akinnagbe@sterling.ng",
+                    Email = "olamidejames007@gmail.com",
                     ExpiryMonth = 4,
                     ExpiryYear = 22,
                     Pan = "4084084084084081",

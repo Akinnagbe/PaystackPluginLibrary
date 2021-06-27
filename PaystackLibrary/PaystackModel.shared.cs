@@ -4,21 +4,13 @@ using System.Text;
 
 namespace Plugin.PaystackLibrary
 {
-   public class DebitCardModel
+   public class PaystackModel : CardModel
     {
-        public DebitCardModel()
+        public PaystackModel()
         {
             CustomFields = new Dictionary<string, string>();
         }
         public Dictionary<string,string> CustomFields { get; set; }
-
-        public string Cvv { get; set; }
-
-        public int ExpiryMonth { get; set; }
-
-        public int ExpiryYear { get; set; }
-
-        public string Pan { get; set; }
 
         /// <summary>
         /// Amount must be in Kobo e.g. N100 is 10000
